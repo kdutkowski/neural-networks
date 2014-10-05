@@ -1,4 +1,4 @@
-#Neural Networks
+#Neural Networks [![Build Status](https://travis-ci.org/janisz/neural-networks.svg)](https://travis-ci.org/janisz/neural-networks)
 
 ### Build and run
 
