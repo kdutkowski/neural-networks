@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = "org.springframework.shell.Bootstrap"
+
+dependencies {
+    compile "org.springframework.shell:spring-shell:1.1.0.RELEASE"
+    compile 'org.encog:encog-core:3.3.0'
+    compile 'net.sf.supercsv:super-csv:2.2.0'
+    testCompile 'org.spockframework:spock-core:0.7-groovy-2.0'
+}
